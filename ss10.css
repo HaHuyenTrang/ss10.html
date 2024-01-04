@@ -1,0 +1,181 @@
+
+.flex-container {
+    display: flex;
+    flex-direction:row;
+    /*điều hướng theo chiều ngan*/
+    justify-content:center;
+    /*điều hướng theo chiều dọc*/
+    align-items:center ;
+    height:100vh; /*view height*/
+    gap:10px;
+    flex-wrap:wrap;/*xuong dong khi thu nho màn hình*/
+}
+.item {
+    height:150px;
+    width:150px;
+    color:white;
+    line-height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap:10px;
+}
+
+.item-1 {
+    background-color: aqua;
+    border-radius: 25px;
+
+    
+}
+.item-2 {
+    background-color: blueviolet;
+    border-radius: 80px;
+
+
+}
+.item-3 {
+    background-color: pink;
+    border-radius: 25px;
+
+}
+.i{
+    background-color: rgba(0, 42, 255, 0.527);
+    width:100%;
+    height:56px;
+    justify-content:space-between;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+li{
+    list-style: none;
+}
+.a{
+    justify-content:space-between;
+    display: flex;
+    gap:10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bang{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.doc{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.a1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.a2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-direction: column-reverse;
+}
+.ngang{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 120px;
+    bottom: 350px;
+}
+
+.a3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.a4{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.border{
+    width:700px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.child-1{
+    position:relative;
+    top:60px;
+    right: 150px;
+}
+.border2{
+    border:2px;
+    width:250px;
+    height:100vh;
+    background-color: rgb(30, 30, 123);
+    color:white;
+    left: ;
+}
+.o{
+    border:1px;
+    width:100px;
+    background-color: rgb(30, 30, 123);
+    position:relative;
+    left:50px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .bai6{
+     width: 380px;
+     height: 350px;
+     border-style: ridge;
+     padding-top: 5px;
+     padding-left: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ #i1{
+     width: 350px;
+     height: 30px;
+     border: 0.5px solid blue;
+     border-radius: 5px;
+ }
+ 
+ #i2{
+     width: 355px;
+     height: 40px;
+     background-color: blue;
+     color: white;
+     border-radius: 5px;
+ }
+ 
+ #i3{
+     width: 355px;
+     height: 40px;
+     background-color: white;
+     border: 0.5px solid grey;
+     border-radius: 5px;
+ }
+ 
+ .account{
+     position: relative;
+     left: 40px;
+ }
+ 
+ 
+ 
+ 
